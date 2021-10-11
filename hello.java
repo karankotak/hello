@@ -3,7 +3,7 @@ public class hello{
         public static void main(String[] args){
                 for(int i=0;i<=10;i++){
                 
-                System.out.println("Working on devloped "+i);
+                System.out.println("Working Making merge changes for master "+i);
 		}
         }
 }
