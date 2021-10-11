@@ -3,7 +3,7 @@ public class hello{
         public static void main(String[] args){
                 for(int i=0;i<=10;i++){
                 
-                System.out.println("This is to merge in master"+i);
+                System.out.println("Work done"+i);
 		}
         }
 }
