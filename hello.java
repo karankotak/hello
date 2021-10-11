@@ -4,7 +4,8 @@ public class hello{
                 for(int i=0;i<=10;i++){
                 
 
-                System.out.println("Working on dev"+i);
+
+                System.out.println("Working on devloped "+i);
 
 		}
         }
