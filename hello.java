@@ -4,7 +4,7 @@ public class hello{
                 for(int i=0;i<=10;i++){
                 
 
-                System.out.println("Pull check dm"+i);
+                System.out.println("Done"+i);
 
 		}
         }
