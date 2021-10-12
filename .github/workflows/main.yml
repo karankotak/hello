@@ -1,0 +1,19 @@
+on:
+  pull_request:
+    branches:
+      - master
+    types: [closed]
+
+jobs:
+  my_job:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-18.04
+    steps:
+    - shell: |
+        cd ~
+        cd test
+        git pull 
+        git checkout master
+    - run: |
+        javac hello.java
+    
