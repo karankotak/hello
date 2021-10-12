@@ -4,8 +4,7 @@ public class hello{
                 for(int i=0;i<=10;i++){
                 
 
-=======
-                System.out.println("Pull "+i);
+                System.out.println("Pull check"+i);
 
 		}
         }
